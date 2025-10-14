@@ -12,3 +12,11 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from google.colab import drive
+
+##Contenido del repositorio
+main.py o celdas para ejecutar en Google Colab (código principal)
+README.md (este archivo)
+Datos externos (no incluidos): carpeta Proyecto2 en Google Drive con metadata.csv y la carpeta data/ con los archivos .csv de los ciclos
+
+##Enlace de descarga de archivos necesarios
+https://drive.google.com/drive/folders/1UOdV_4DI9zW6ew3mz8O9dPpX2v98Py8l?usp=drive_link
