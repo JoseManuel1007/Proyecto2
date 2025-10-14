@@ -13,7 +13,7 @@ Este proyecto realiza el análisis de datos experimentales de baterías de ion-l
 - google.colab.drive  
 
 ## Contenido del repositorio  
-- **main.py**: código principal para ejecutar en Google Colab.  
+- **analisis_baterias.ipynb**: código principal para ejecutar en Google Colab.  
 - **README.md**: este archivo.  
 - **Datos externos (no incluidos)**: carpeta *Proyecto2* en Google Drive con `metadata.csv` y la carpeta `data/` con los archivos CSV de los ciclos.  
 
