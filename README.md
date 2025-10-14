@@ -1,11 +1,24 @@
 # Proyecto2
 
 ## Descripción
-Este proyecto analiza el comportamiento y degradación de baterías de ion-litio mediante el cálculo del Estado de Carga (SOC) y el Estado de Salud (SOH). También incluye una herramienta para dimensionar bancos de baterías y comparar diferentes químicas según su energía y peso.
+Este proyecto permite analizar el comportamiento y degradación de baterías de ion-litio mediante el cálculo del Estado de Carga (SOC) y el Estado de Salud (SOH). También incluye una función para dimensionar bancos de baterías y comparar diferentes químicas según su energía y peso.
 
-## Requisitos
-- Google Colab o Python 3.10+
-- Librerías necesarias:
-  ```bash
-  pip install pandas numpy matplotlib gdown
+## Librerías utilizadas
+```python
+import os
+import glob
+import shutil
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from google.colab import drive
+
+Proyecto2/
+├── metadata.csv
+└── data/
+    ├── B0005_cycle1.csv
+    ├── B0005_cycle2.csv
+    └── ...
+
+
   
